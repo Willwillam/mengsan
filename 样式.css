@@ -19,11 +19,66 @@
 .div-pull{position:absolute;right:0;top:40px;z-index:1;height:0;overflow:hidden;}
 
 /* content */
-.content-left{width:20%;background-color:#455456;}
+.content-left{width:20%;background-color:#455456;position:absolute;left:0;top:41px;}
 .left-nav{list-style:none;}
 .left-list{text-align:center;color:#d1d7d8;font-size:24px;line-height:50px;
 	font-weight:700;border:0.5px solid #d1d7d8;}
-.left-list:hover{color:white;}	
+.left-list:hover{color:white;}
+.left-color{width:20%;background-color:#455456;height:532px;}	
 .triangle{display:inline-block;width:10px;height:10px;border:1px solid #d1d7d8;border-width:0 5px 5px 0;
-	margin-left:15px;transform:rotate(-45deg);}
-.ext-content{background-color:#333737;height:0;overflow:hidden;}	
+	margin-left:15px;transform:rotate(-45deg);}	
+.ext-content{background-color:#333737;display:none;overflow:hidden;}	
+
+
+/* 右侧样式 */
+.content-right{background:url("../img/山河墨卷.png") no-repeat;background-color:#eff2f7;
+width:80%;height:1500px;position:absolute;left:20%;top:41px;}
+.little-title{position:absolute;left:3%;top:220px;}
+.l-img{float:left;}
+.l-text{float:left;}
+.content-right li{text-decoration:none;}
+.news-box{position:absolute;left:3%;top:258px;border:1px solid #455456;width:424px;height:264px;}
+.news-title{list-style:none;border:1px solid #455456;background-color: #455456;text-decoration:none;}
+.news-title li{float:left;padding:14px 26.7px;border-right:1px solid gray;
+	width:30px;height:25px;font-size:14px;background-color: #455456;color:white;}
+.news-title li:hover{color:black;background-color:white;}
+.news-title .news-change{color:black;background-color:white;}
+.news-content h1{font-size:14px; line-height:30px;color:red;text-align:center;padding:4px 8px;}	
+.news-content ul{list-style:none;}
+.news-content ul li{font-size:14px;line-height:30px;}
+.autoplay{position:absolute;left:46%;top:258px;border:1px solid #455456;z-index:1;}
+.btns{position:absolute;z-index:2;left:150px;bottom:20px;}
+.btns ul{list-style:none;overflow:hidden;}
+.btns ul li{float:left;width:10px;height:10px;border:1px solid black;border-radius:50%;margin:5px;}
+.btns ul li:hover{background-color:#455456}
+.btns_change{background-color:#455456}
+/* 讲武堂样式 */
+.little-title2{position:absolute;left:3%;top:580px;}
+.power-box{position:absolute;left:3%;top:620px;border:1px solid #455456;width:424px;height:264px;}
+.power-title{border:1px solid #455456;border-width:5px 0px 0px 0px;background-color:#dddddd;}
+.power-title ul{list-style:none;overflow:hidden;}
+.power-title ul li{float:left;padding:7px;font-weight:900;font-size:16px;width:100px;height:30px;background-color:#dddddd;}
+.power-title ul li:hover{background-color:white;border-color:green;}
+.power-title .change-color{background-color:white;color:blue;}
+.images-2{float:left;padding:8px; }
+.first-content{float:left;padding-left:10px;}
+.first-content h1{font-size:25px;line-height:18px;
+	text-align:center;width:100%;height:20px;padding-top:10px;color:blue;}
+.first-content p{line-height:20px;padding-top:6px;}	
+.clear{clear:both;}
+.else-content {list-style:none;overflow:hidden;}
+.else-content li{font-size:14px;line-height:22px;}
+/* 英雄周榜 */
+.little-title3{position:absolute;left:3%;top:920px;}
+.heros-group{position:absolute;left:3%;top:960px;width:984px;height:306px;}
+.heros-group ul{list-style:none;overflow:hidden;width:984px;height:306px;}
+.heros-group ul li{float:left;width:123px;height:306px;transition:all linear 0.3s;position:relative;}
+.heros-group ul li:hover{width:236px;}
+.heros-group ul li .word{position:absolute;bottom:20px;left:10px;}
+.heros-group ul li .mask{position:absolute;left:0;top:0;width:246px;height:306px;opacity:.6;background-color:#000000;}
+.heros-group ul li .mask:hover{opacity:0;}
+
+/* 底部版权区 */
+footer{position:relative;left:0;top:1300px;width:100%;height:200px;background-color:#141414;}
+footer .footer-img{position:absolute;left:150px;top:80px;width:268px;height:64px;}
+footer .footer-content{color:#fff;position:absolute;left:430px;top:70px}
